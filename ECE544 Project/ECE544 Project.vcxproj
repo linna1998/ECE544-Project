@@ -110,6 +110,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="Solution1-exercise1.click" />
+    <None Include="Solution1-exercise2a.click" />
+    <None Include="Solution1-exercise2b.click" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

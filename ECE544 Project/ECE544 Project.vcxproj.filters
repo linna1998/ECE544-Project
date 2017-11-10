@@ -24,5 +24,30 @@
     <None Include="Solution1-exercise2b.click">
       <Filter>源文件</Filter>
     </None>
+    <None Include="Solution3\exercise1-sender.click">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="Solution3\exercise1-receiver.click">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Solution3\PacketReceiver.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution3\Packet.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution3\PacketSender.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Solution3\PacketReceiver.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution3\PacketSender.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

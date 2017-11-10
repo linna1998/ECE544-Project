@@ -113,6 +113,17 @@
     <None Include="Solution1-exercise1.click" />
     <None Include="Solution1-exercise2a.click" />
     <None Include="Solution1-exercise2b.click" />
+    <None Include="Solution3\exercise1-receiver.click" />
+    <None Include="Solution3\exercise1-sender.click" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Solution3\Packet.hh" />
+    <ClInclude Include="Solution3\PacketReceiver.hh" />
+    <ClInclude Include="Solution3\PacketSender.hh" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Solution3\PacketReceiver.cc" />
+    <ClCompile Include="Solution3\PacketSender.cc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

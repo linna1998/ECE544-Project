@@ -118,12 +118,16 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution3\Packet.hh" />
+    <ClInclude Include="Solution3\PacketClient.hh" />
     <ClInclude Include="Solution3\PacketReceiver.hh" />
     <ClInclude Include="Solution3\PacketSender.hh" />
+    <ClInclude Include="Solution3\PacketServer.hh" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Solution3\PacketClient.cc" />
     <ClCompile Include="Solution3\PacketReceiver.cc" />
     <ClCompile Include="Solution3\PacketSender.cc" />
+    <ClCompile Include="Solution3\PacketServer.cc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

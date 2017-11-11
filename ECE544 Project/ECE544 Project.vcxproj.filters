@@ -41,12 +41,24 @@
     <ClInclude Include="Solution3\PacketSender.hh">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Solution3\PacketClient.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution3\PacketServer.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Solution3\PacketReceiver.cc">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Solution3\PacketSender.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution3\PacketClient.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution3\PacketServer.cc">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
